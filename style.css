@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+h1 {
+    font-family: 'Calibri';
+}
+thead {
+    background-color: yellow;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+tbody {
+    font-family: 'Calibri';
+    text-align: left;
+}
+td, th {
+    padding: 5px;
+}
+tbody td:hover {
+    background-color: rgb(93, 136, 7);
+}
+tbody tr:nth-child(odd) {
+    background-color: yellowgreen;
+}
